@@ -17,7 +17,7 @@ function Question(p) {
        return(
         <>
            <div>{answer} is the wrong answer</div>
-           <div>correct answer is {'Delhi'}</div>
+           <div>correct answer is {p.cans}</div>
         </>
        )
     }
